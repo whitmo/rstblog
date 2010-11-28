@@ -19,6 +19,7 @@ Writing commands for getting a virtual environment up & running::
 	venv/bin/pip install pyyaml
 	venv/bin/pip install babel
 	venv/bin/pip install blinker
+	venv/bin/pip install jinja2
 
 Then create the blog using the virtual environment::
 
