@@ -20,6 +20,8 @@ Writing commands for getting a virtual environment up & running::
 	venv/bin/pip install babel
 	venv/bin/pip install blinker
 	venv/bin/pip install jinja2
+	venv/bin/pip install docutils
+	venv/bin/pip install werkzeug
 
 Then create the blog using the virtual environment::
 
