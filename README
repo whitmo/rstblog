@@ -1,3 +1,28 @@
+=======
+rstblog
+=======
+
 My NIH static blog replacement for my old dynamic blog.
 
 Totally nothing new but does the trick for me.
+
+Install
+=======
+
+Using virtual environments
+--------------------------
+
+Writing commands for getting a virtual environment up & running::
+
+	virtualenv venv
+	venv/bin/easy_install pip
+	venv/bin/pip install pyyaml
+	venv/bin/pip install babel
+	venv/bin/pip install blinker
+	venv/bin/pip install jinja2
+	venv/bin/pip install docutils
+	venv/bin/pip install werkzeug
+
+Then create the blog using the virtual environment::
+
+	venv/bin/python run-rstblog.py

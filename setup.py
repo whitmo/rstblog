@@ -14,5 +14,13 @@ setup(
     package_data={
         'rstblog': ['templates/*.html', 'templates/blog/*.html']
     },
-    install_requires=['PyYAML', 'Babel', 'blinker', 'Jinja2']
+    install_requires=[
+        'Babel',
+        'PyYAML',
+        'blinker',
+        'docutils',
+        'jinja2',
+        'pygments',
+        'werkzeug',
+        ]
 )

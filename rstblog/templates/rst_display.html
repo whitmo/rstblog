@@ -17,5 +17,6 @@
       {%- if loop.last and not loop.first %} and {% endif %}
       <a href="{{ link_to('tag', tag=tag) }}">{{ tag }}</a>
     {%- endfor %}
+  </p>
   {% endif %}
 {% endblock %}

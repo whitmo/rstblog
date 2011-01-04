@@ -30,6 +30,7 @@ def main():
     """Entrypoint for the console script."""
     if len(sys.argv) not in (1, 2, 3):
         print >> sys.stderr, 'usage: rstblog <action> <folder>'
+        sys.exit()
     if len(sys.argv) >= 2:
         action = sys.argv[1]
     else:
